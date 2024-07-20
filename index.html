@@ -11,7 +11,7 @@
     <meta property="og:type" content="website">
     <title>Jw Player</title>
     <link rel="shortcut icon" type="image/x-icon" href="https://i.postimg.cc/YC3Npf10/image.webp">
-    <link rel="stylesheet" href="/Player/Mpd2.css">
+    <link rel="stylesheet" href="Mpd2.css">
 </head>
 <body>
     <h1>Jw Player</h1>
@@ -33,7 +33,7 @@
             const clearKey = document.getElementById('clearKey').value;
             const clearKeyId = document.getElementById('clearKeyId').value;
 
-            let redirectLink = '/Player/Player.html?';
+            let redirectLink = 'Player.html?';
 
             if (mediaLink.includes('.mpd')) {
                 redirectLink += `mpd=${mediaLink}&keyId=${clearKeyId}&key=${clearKey}`;
